@@ -1,4 +1,4 @@
-FROM gcr.io/spiffe-io/spire-server:unstable
+FROM spire-server:latest-local
 
 # Override spire configurations
 COPY conf/spire-server.conf /opt/spire/conf/server/server.conf
